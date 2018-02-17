@@ -5,11 +5,11 @@ function abbrevName(name){
   let abbrev;
   for (let i in name) {
     if(name[i] === ' '){
-      second = name[i + 1];
+      second = name[parseInt(i) + 1];
       abbrev = `${first}.${second}`;
     }
-    return abbrev;
   }
+  return abbrev;
 
 }
 
