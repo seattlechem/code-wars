@@ -9,6 +9,6 @@ Daily code wars challenge problems for Code Fellows 301.
 |   [4](https://www.codewars.com/kata/simple-validation-of-a-username-with-regex)	|  Simple Validation of a Username with Regex 	|  [js](https://github.com/seattlechem/code-wars/blob/master/validate-user-using-regex/solution.js) 	|   	|   	|   	|
 |  [5](https://www.codewars.com/kata/regex-validate-pin-code) 	|  Regex validate PIN code 	|  [js](https://github.com/seattlechem/code-wars/blob/master/lab05/validate-pin/solution.js) 	|   	|   	|   	|
 |   [6](https://www.codewars.com/kata/alternate-capitalization)	|  Alternate capitalization 	|  [js](https://github.com/seattlechem/code-wars/blob/master/lab05/alternate-capitalization/solution.js) 	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|
+|  [7](https://www.codewars.com/kata/nice-array) 	|  Nice Array 	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|   	|
