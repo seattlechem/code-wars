@@ -10,3 +10,13 @@
 
 // vowel: A, E, I, O, U
 
+function disemvowel(str) {
+  for (let i of str){
+    if(i.toLowerCase() === 'a' || i.toLowerCase() === 'e' ||
+    i.toLowerCase() === 'i' || i.toLowerCase() === 'o' ||
+    i.toLowerCase() === 'u') {
+      str = str.replace(i, '');
+    }
+  }
+  return str;
+}
