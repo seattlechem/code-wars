@@ -9,27 +9,28 @@
 // If two words score the same, return the word that appears earliest in the original string. 
 
 // All letters will be lowercase and all inputs will be valid. 
-let x = 'man i need a taxi up to ubud';
-function high(x){
-    //split at space
-    let y = x.split(' ')
-    let sum = 0;
-    let arr = [];
-    
-    for (let i of y) {
-        for (let z in i){
-            console.log(parseInt(i, 8))
-            sum += i.charCodeAt(z);
-            
-        }
-        arr.push(sum);
-        
-    }
-    let max = Math.max.apply(null, arr);
-    //return index number for that max number from array;
-    
-    
-    return y[arr.indexOf(max)];
-}
 
-high(x);
+ 
+
+function high(x){ 
+    var words = x.split(' ');
+    let max = 0; 
+    highWord = ''; 
+
+    for(let i = 0; i < words.length; i++){ 
+        let s = words[i]; 
+        let val = 0;
+        
+        for(let j = 0; j < s.length; j++){ 
+            val += (s.charCodeAt(j) - 96); 
+        } 
+    
+        if(val > mx){ 
+            max = val; 
+            highWord = s; 
+        }     
+    } 
+    return highWord; 
+} 
+    
+    
